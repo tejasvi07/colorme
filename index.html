@@ -1,0 +1,26 @@
+<html>
+               <head>
+                              <title>Color Me by KS </title>
+                              <style>
+                                         *{font-size:50px;}
+                                       
+                             </style>
+                             <script>
+                                              function cc()
+                                                {
+                                                   event.preventDefault();
+                                                   let colors = ["red","green","blue","pink","gray"];
+                                                   let r=parseInt(Math.random()*colors.length);
+                                                   document.body.style.backgroundColor=colors[r];
+                                                }               
+                                  </script>
+               </head>
+                <body>
+                 <center>
+                                      <h1>Holi Hain </h1>
+                                        <form onsubmit="cc()">
+                                       <input type="submit"value="Mohe Rang De"/>
+                               </form>
+                         </center>
+                           </body>
+                  </html>
